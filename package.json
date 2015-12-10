@@ -1,0 +1,32 @@
+{
+  "name": "generator-web-prototype",
+  "version": "0.0.1",
+  "description": "A yeoman generator for a simple prototype web application. Sets up a very simple directory structure with gulp and a small web server. This is not meant for production apps, but for setting up a simple project for prototyping and proof of concept work.",
+  "files": [
+    "generators/app"
+  ],
+  "scripts": {
+    "test": "eslint **/*.js"
+  },
+  "keywords": [
+    "yeoman",
+    "generator",
+    "yeoman-generator",
+    "gulp",
+    "prototype",
+    "simple"
+  ],
+  "author": "Patrick Ortiz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerlocian/generator-web-prototype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gerlocian/generator-web-prototype/issues"
+  },
+  "homepage": "https://github.com/gerlocian/generator-web-prototype#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.21.1"
+  }
+}
