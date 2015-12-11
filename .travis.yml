@@ -8,3 +8,7 @@ node_js:
   - "0.8"
   - "0.6"
   - "iojs"
+
+before_script:
+  - npm install -g eslint
+script: eslint
