@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" <% if (frameworks.angular) { %>ng-app<% } %>>
+<head>
+    <meta charset="UTF-8">
+    <title>Web Prototype</title>
+
+<% if (frameworks.bootstrap) { -%>
+    <link rel="stylesheet" type="text/css" href="<%= vendorDir %>/bootstrap/dist/css/bootstrap.min.css">
+<% } -%>
+<% if (frameworks.bootstrapTheme) { -%>
+    <link rel="stylesheet" type="text/css" href="<%= vendorDir %>/bootstrap/dist/css/bootstrap-theme.min.css">
+<% } -%>
+
+    <!-- Your CSS goes here -->
+</head>
+<body>
+    <section>
+<% if (frameworks.bootstrap) { -%>
+        <div class="container">
+<% } -%>
+            <h1>Hello World!</h1>
+            <p>Built with Yeoman Web Prototype Generator.</p>
+<% if (frameworks.bootstrap) { -%>
+        </div>
+<% } -%>
+    </section>
+
+<% if (frameworks.jquery || frameworks.bootstrap || frameworks.angular) { -%>
+    <script type="text/javascript" src="<%= vendorDir %>/jquery/dist/jquery.min.js"></script>
+<% } -%>
+<% if (frameworks.bootstrap) { -%>
+    <script type="text/javascript" src="<%= vendorDir %>/bootstrap/dist/js/bootstrap.min.js"></script>
+<% } -%>
+<% if (frameworks.angular) { -%>
+    <script type="text/javascript" src="<%= vendorDir %>/angular/angular.min.js"></script>
+<% } -%>
+
+    <!-- Your Javascript goes here -->
+</body>
+</html>
