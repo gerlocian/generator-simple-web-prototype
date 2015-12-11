@@ -18,7 +18,7 @@ I do a lot of web application prototyping and found it tedious to build the appl
     - Determine which frameworks you wish to install. This list will grow over time.
     - If you are using Bootstrap, determine if you want to use the Bootstrap Theme. I sometimes use this to test ui features. Defaults to false.
 - Once the generator has completed, run `gulp serve` or `gulp`. This will start your server.
-- Go to any browser and type http://localhost:<port> where `<port>` is the value you provided above. If you used the default, `:<port>` is optional.
+- Go to any browser and type http://localhost:`<port>` where `<port>` is the value you provided above. If you used the default, `:<port>` is optional.
 
 ## Ok I'm setup, now what?
 That's up to you. The web application you have is extremely simple and can become anything.
