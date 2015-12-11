@@ -1,4 +1,4 @@
-# Web prototype generator [![Build Status](https://travis-ci.org/gerlocian/generator-web-prototype.svg?branch=master)](http://travis-ci.org/gerlocian/generator-web-prototype)
+# Simple web prototype generator [![Build Status](https://travis-ci.org/gerlocian/generator-simple-web-prototype.svg?branch=master)](http://travis-ci.org/gerlocian/generator-simple-web-prototype)
 A [Yeoman](http://yeoman.io) generator for a simple prototype web application. Sets up a very simple directory structure with gulp and a small web server. This is not meant for production apps, but for setting up a simple project for prototyping and proof of concept work.
 
 ## Background
@@ -7,8 +7,8 @@ I do a lot of web application prototyping and found it tedious to build the appl
 ## Getting started
 
 - Install dependencies: `npm install -g yo gulp bower`
-- Install the generator: `npm install -g generator-web-prototype`
-- Run `yo web-prototype` to build the project
+- Install the generator: `npm install -g generator-simple-web-prototype`
+- Run `yo simple-web-prototype` to build the project
 - Follow the prompts to determine the few options you want to edit.
     - Name the project. Defaults to the folder name.
     - Determine the name of your document root or source. Defaults to "src".
